@@ -1,0 +1,142 @@
+.content{
+    width: 90vw;
+    max-width: 1000px;
+    margin: auto;
+}
+.logo{
+    display: inline;
+}
+ul {
+    list-style-type: none;
+    display: inline;
+}
+
+.item{
+    margin: 10px;
+    display: inline;
+    margin: 0 rem1 0;
+    letter-spacing: 1px;
+
+
+}
+    
+.btn_login{
+    background-color: transparent;
+    border: none;
+
+
+}
+.btn_register{
+    margin-left: 1px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 0.8px 1rem;
+    border-radius: 10px;
+}
+.btn_container{
+    display:inline;
+    margin-left: 5rem;
+    position: relative;
+    top: 4px;
+    
+}
+.main_text{
+ width: 400px;
+ margin-top: 1rem;
+ 
+ padding: 5rem;
+}
+.main_image {
+    width: 400px;
+    height: 400px;
+    float: right;
+
+}
+.main_image img{
+    display: block;
+ width: 100%;
+ 
+ object-fit: cover;
+}
+.container{
+ width: 90vw;
+ max-width: 1000px;
+ margin:0 auto;
+
+}
+.text{
+    color: var(--medium-gray);
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+.tittle{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.companies{
+    margin-top: 1rem;
+}
+.toggle{
+    position: absolute;
+    right: 1rem;
+    background-color: transparent;
+    border: none;
+}
+.nav_links{
+    display: none;
+}
+.btn_container{
+    display: none;
+}
+@media(min-width: 1000px){
+    .nav_links,
+    .btn_container{
+      display: inline;
+      margin-left: 5rem;
+      position: relative;
+      top: 2px;
+    }
+    .item{
+     display: inline;
+     margin:0 1rem 0;
+    
+    }
+    .toggle{
+        display: none;
+    }
+    .main_text{
+        margin-top: 2rem;
+        width: 550px;
+        height: 600px;
+    
+    }
+    .main_image{
+        float:right;
+        width: 400px;
+        height: 400px;
+    
+    }
+    .btn_login{
+        background-color: transparent;
+        border: none;
+    
+    }
+    .btn_register{
+        margin-left: 1px;
+        background-color: transparent;
+        border: 1px solid black;
+        padding: 0.8px 1rem;
+        border-radius: 10px;
+    }
+
+}
